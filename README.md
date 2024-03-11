@@ -10,15 +10,16 @@ that most programmers have never encountered.
 
 ## Topics
 
-| Name              | GitHub ID          | Topic                     | Slug     |
-| ----------------- | ------------------ | ------------------------- | -------- |
-| Luke Boswell      | lukewilliamboswell | text editor               | editor   |
-| Ashley Davis      | ashleydavis        | thumbnail gallery         | gallery  |
-| Kyril Dziamura    | wontem             | file backup               | backup   |
-| Norbert Hajagos   | HajagosNorbert     | file transfer             | ftp      |
-| Norbert Hajagos   | HajagosNorbert     | discrete event simulation | des      |
-| Isaac Van Doren   | isaacvando         | HTML templates            | template |
-| Jasper Woudenberg | jwoudenberg        | continuous integration    | ci       |
+| Name               | GitHub ID          | Topic                     | Slug     |
+| ------------------ | ------------------ | ------------------------- | -------- |
+| Shritesh Bhattarai | shritesh           | SVG rendering             | svg      |
+| Luke Boswell       | lukewilliamboswell | text editor               | editor   |
+| Ashley Davis       | ashleydavis        | thumbnail gallery         | gallery  |
+| Kyril Dziamura     | wontem             | file backup               | backup   |
+| Norbert Hajagos    | HajagosNorbert     | file transfer             | ftp      |
+| Norbert Hajagos    | HajagosNorbert     | discrete event simulation | des      |
+| Isaac Van Doren    | isaacvando         | HTML templates            | template |
+| Jasper Woudenberg  | jwoudenberg        | continuous integration    | ci       |
 
 ## FAQ
 
