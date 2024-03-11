@@ -22,8 +22,8 @@ that most programmers have never encountered.
 
 ## FAQ
 
-Why [Roc][roc] rather than a more established language like Haskell, Clojure, or Elixir?
-:   One of the lessons from the previous books is that
+-   **Why [Roc][roc] rather than a more established language like Haskell, Clojure, or Elixir?**
+    One of the lessons from the previous books is that
     a large language can make design harder to see:
     core ideas might actually have been clearer
     if those books had used a smaller language like Lua.
@@ -33,8 +33,8 @@ Why [Roc][roc] rather than a more established language like Haskell, Clojure, or
     by drawing attention to oversights and sources of friction
     while the language is still malleable?
 
-What license are we using?
-:   The code is covered by the [MIT License][mit-license],
+-   **What license are we using?**
+    The code is covered by the [MIT License][mit-license],
     so it can be copied, remixed, extended, and incorporated into other projects
     (both open and closed source).
     The prose (i.e., the text of the lessons) is covered by
@@ -47,23 +47,23 @@ What license are we using?
     but they are in place now because it's much easier to relax a license after the fact
     than to tighten one up.
 
-How do I propose a topic?
-:   Create an issue with "topic proposal:" in its title
+-   **How do I propose a topic?**
+    Create an issue with "topic proposal:" in its title
     and a brief description of what you'd like to cover.
     Greg will triage issues, start discussions, and identify overlaps.
 
-How do I know what topics are taken?
-:   Look at the "Topics" section of this file
+-   **How do I know what topics are taken?**
+    Look at the "Topics" section of this file
     or for issues marked [assigned][assigned] in [our repository][repo].
 
-What if I don't have an idea but still want to contribute?
-:   Issues labeled [help wanted][help-wanted] in [our repo][repo]
+-   **What if I don't have an idea but still want to contribute?**
+    Issues labeled [help wanted][help-wanted] in [our repo][repo]
     are topic proposals in search of authors.
     If you are interested in taking one of these on,
     please add a comment to the issue and mention `@gvwilson` to start discussion.
 
-Where should code and notes go?
-:   For now,
+-   **Where should code and notes go?**
+    For now,
     each topic should go in a subdirectory of the root directory
     whose name is a short hyphenated slug,
     e.g., `editor` or `http-server`.
