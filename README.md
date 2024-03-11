@@ -1,4 +1,4 @@
-# Software Design by Example in Roc
+# Software Design by Example in [Roc][roc]
 
 The best way to learn design in any field is to study examples.
 These lessons therefore build scale models of tools that programmers use every day
@@ -8,11 +8,17 @@ they introduce some fundamental concepts about pure functional languages
 that most programmers have never encountered.
 *SDXRoc* is a sequel to previous books in [JavaScript][sdxjs] and [Python][sdxpy].
 
-> 2024-03-08:
-> Issues labeled [help wanted][help-wanted] are topic proposals in search of authors.
-> If you are interested in taking one of these on,
-> please add your name to the issue.
+## Topics
 
-[help-wanted]: https://github.com/roc-lang/book-of-examples/labels/help-wanted
+| Author              | Topic                  | Slug     |
+| ------------------- | ---------------------- | -------- |
+| @ashleydavis        | thumbnail gallery      | gallery  |
+| @HajagosNorbert     | file transfer          | ftp      |
+| @isaacvando         | HTML templates         | template |
+| @jwoudenberg        | continuous integration | ci       |
+| @lukewilliamboswell | text editor            | editor   |
+| @wontem             | file backup            | backup   |
+
+[roc]: https://www.roc-lang.org/
 [sdxjs]: https://third-bit.com/sdxjs/
 [sdxpy]: https://third-bit.com/sdxpy/
