@@ -10,16 +10,19 @@ that most programmers have never encountered.
 
 ## Topics
 
-| Name               | GitHub ID          | Topic                     | Slug     |
-| ------------------ | ------------------ | ------------------------- | -------- |
-| Shritesh Bhattarai | shritesh           | SVG rendering             | svg      |
-| Luke Boswell       | lukewilliamboswell | text editor               | editor   |
-| Ashley Davis       | ashleydavis        | thumbnail gallery         | gallery  |
-| Kyril Dziamura     | wontem             | file backup               | backup   |
-| Norbert Hajagos    | HajagosNorbert     | file transfer             | ftp      |
-| Norbert Hajagos    | HajagosNorbert     | discrete event simulation | des      |
-| Isaac Van Doren    | isaacvando         | HTML templates            | template |
-| Jasper Woudenberg  | jwoudenberg        | continuous integration    | ci       |
+| Name               | GitHub ID          | Topic                     | Slug       |
+| ------------------ | ------------------ | ------------------------- | ---------- |
+| Shritesh Bhattarai | shritesh           | SVG rendering             | svg        |
+| Luke Boswell       | lukewilliamboswell | text editor               | editor     |
+| Sophie Collard     | sophiecollard      | property-based testing    | proptest   |
+| Ashley Davis       | ashleydavis        | thumbnail gallery         | gallery    |
+| Eli Dowling        | faldor20           | autocompletion            | completion |
+| Kyril Dziamura     | wontem             | file backup               | backup     |
+| Norbert Hajagos    | HajagosNorbert     | file transfer             | ftp        |
+| Norbert Hajagos    | HajagosNorbert     | discrete event simulation | des        |
+| Fabian Schmalzried | FabHof             | binary data packing       | binary     |
+| Isaac Van Doren    | isaacvando         | HTML templates            | template   |
+| Jasper Woudenberg  | jwoudenberg        | continuous integration    | ci         |
 
 ## FAQ
 
