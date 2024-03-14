@@ -20,6 +20,7 @@ that most programmers have never encountered.
 | Kyril Dziamura     | wontem             | file backup               | backup     |
 | Norbert Hajagos    | HajagosNorbert     | file transfer             | ftp        |
 | Norbert Hajagos    | HajagosNorbert     | discrete event simulation | des        |
+| Stuart Hinson      | stuarth            | pattern matching          | match      |
 | Fabian Schmalzried | FabHof             | binary data packing       | binary     |
 | Isaac Van Doren    | isaacvando         | HTML templates            | template   |
 | Jasper Woudenberg  | jwoudenberg        | continuous integration    | ci         |
