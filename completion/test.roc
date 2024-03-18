@@ -1,29 +1,38 @@
 app "test"
     packages { pf: "https://github.com/roc-lang/basic-cli/releases/download/0.8.1/x8URkvfyi9I0QhmVG98roKBUs_AZRkLFwFJVJ3942YA.tar.br" }
-    imports [TotallyNotJson]
+    imports [TotallyNotJson, pf.Stdout, Decode]
     provides [main] to pf
-main = 10
 
-finalizer2 = \rec, fmt ->
-    when
-        when rec.f0 is
-            Err _ ->
-                when Decode.decodeWith [] Decode.decoder fmt is
-                    rec2 -> rec2.result
+UserName := Str implements [
+        Eq { isEq: userNameEq },
+        Decoding {
+            decoder: userNameDecode,
+        },
+    ]
+userNameEq = \@UserName a, @UserName b -> a == b
+userNameDecode = Decode.custom \bytes, fmt ->
+    bytes
+    |> Decode.fromBytesPartial fmt
+    |> Decode.mapResult @UserName
 
-            Ok a -> Ok a
-    is
-        Ok f0 ->
-            when
-                when rec.f1 is
-                    Err NoField ->
-                        when Decode.decodeWith [] Decode.decoder fmt is
-                            rec2 -> rec2.result
+Alias : { user: UserName }
+expect
+    prog =
+        """
+        {"user":"name"}
+        """
+        |> Str.toUtf8
+    rec : Result Alias _
+    rec = prog |> Decode.fromBytes TotallyNotJson.json
+    rec == Ok { user: @UserName "name" }
 
-                    Ok a -> Ok a
-            is
-                Ok f1 -> Ok { f1, f0 }
-                Err _ -> Err TooShort
+AliasBad : UserName 
+expect
+    prog =
+        "name"
+        |> Str.toUtf8
+    rec : Result AliasBad _
+    rec = prog |> Decode.fromBytes TotallyNotJson.json
+    rec == @UserName "name" |>Ok
 
-        Err _ -> Err TooShort
-
+main = Stdout.line "hi"

@@ -1,6 +1,6 @@
 app "lang-server"
     packages { pf: "https://github.com/roc-lang/basic-cli/releases/download/0.8.1/x8URkvfyi9I0QhmVG98roKBUs_AZRkLFwFJVJ3942YA.tar.br" }
-    imports [pf.Stdout, pf.Stdin, pf.Task, Decode.{ DecodeResult, fromBytesPartial }, TotallyNotJson, Union.{ Union2 }]
+    imports [pf.Stdout, pf.Stdin, pf.Task, Decode.{ DecodeResult },  Union.{ Union2, Option },Core]
     provides [main] to pf
 ##Converts a result to a task then awaits it
 awaitResult = \res, next -> res |> Task.fromResult |> Task.await next
@@ -14,39 +14,10 @@ sample =
 
 # StringOrInt : [String Str, Number U64]
 # Message : { jsonrpc : Str, id : StringOrInt }
-Id : Union2 Str I64
-RequestMessage := []
-Position : {
-    line : U64,
-    character : U64,
-}
-##This should have some decoding constraints and probably be opaque
-DocumentUri : Str
-TextDocumentIdentifier : {
-    uri : DocumentUri,
-}
-WorkDoneProgressParams : {
-    workDoneToken : ProgressToken,
-}
-ProgressToken : Union2 I64 Str
-HoverParams : {
-    textDocument : TextDocumentIdentifier,
-    position : Position,
-    # Optional
-    workDoneToken : ProgressToken,
-}
+##Doesn't work 
+#Id : Union2 Str I64
 
-# RequestMessage should be opaque
-# It will have it's own decoder.
-# In the decoder we will decide which Request it should decode to
-# It will return a tag union of all the possible types
-
-OptionTest : { y : U8, maybe : Union2 U8 Str }
-decoded : DecodeResult OptionTest
-decoded = Decode.fromBytesPartial sample TotallyNotJson.json
 main =
-    dbg decoded
-
     Stdout.line "done"
 
 # RequestMessage={
