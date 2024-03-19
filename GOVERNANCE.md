@@ -8,7 +8,8 @@ while the third lists decisions made to date.
 ## Making Decisions
 
 1.  Before each voting deadline (discussed below),
-    anyone who wishes may sponsor a proposal by filing an issue in the GitHub repository tagged "governance"
+    any voting members may sponsor a proposal
+    by filing an issue in the GitHub repository tagged "governance"
     and either "propose-addition" or "propose-change".
     Proposals must be filed at least 24 hours before a voting deadline in order to be considered,
     and must include:
@@ -24,7 +25,8 @@ while the third lists decisions made to date.
 
 4.  At or before the voting deadline,
     a sense vote is cast for the proposal.
-    Each person may vote +1 (in favor), 0 (no opinion), or -1 (opposed).
+    Each person may vote +1 (in favor), 0 (no opinion), or -1 (opposed)
+    by adding a comment to the GitHub issue.
 
 5.  If all votes are +1 or 0,
     the proposal is accepted with no further discussion.
@@ -36,19 +38,21 @@ while the third lists decisions made to date.
 7.  If a minority of votes are -1,
     members have one calendar week to add comments to the issue in its GitHub Issues thread.
     At the end of this time a second vote is held
+    (again, by adding comments to the GitHub issue)
     in which all votes must be either +1 or -1.
     If a majority votes in favor the proposal is adopted.
     Otherwise, the proposal is rejected.
 
-## Suffrage
+## Voting Members
 
 1.  The following people are currently voting members of this project:
-    -   Luke **Boswell**
-    -   Richard **Feldman** (co-editor)
-    -   Norbert **Hajagos**
-    -   Stuart **Hinson**
-    -   Greg **Wilson** (co-editor)
-    -   Jasper **Woudenberg**
+    1.  Luke **Boswell**
+    1.  Richard **Feldman** (co-editor)
+    1.  Norbert **Hajagos**
+    1.  Stuart **Hinson**
+    1.  Anton **Van Moere** (co-editor)
+    1.  Greg **Wilson** (co-editor)
+    1.  Jasper **Woudenberg**
 
 2.  To become a voting member, a person must:
     1.  select a topic in the issue list in this project's GitHub repository;
@@ -56,10 +60,10 @@ while the third lists decisions made to date.
     3.  submit a pull request creating a sub-directory for their topic with an `index.md` file.
 
 3.  Once ten (10) people have qualified as members under rule #2,
-    further additions will be made by:
-    1.  filing a "governance" issue in the repository to propose the addition; and
-    2.  allowing 72 hours for objections.
-        If there are any objections,
+    further additions will be made as follows:
+    1.  An existing voting member must file a "governance" issue in the repository
+        to propose the addition.
+    2.  If there are no objections after 72 hours,
 	the addition will go through the procedure described in "Making Decisions" above.
 
 4.  Voting members may resign from the project at any time.
