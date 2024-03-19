@@ -25,6 +25,31 @@ that most programmers have never encountered.
 | Isaac Van Doren    | isaacvando         | HTML templates            | template   |
 | Jasper Woudenberg  | jwoudenberg        | continuous integration    | ci         |
 
+## Learner Persona
+
+1.  Ning (26) has a college degree in software engineering
+    and has been working as a programmer for four years.
+    They are comfortable using JavaScript, Python, the Unix shell, Git, and Docker
+    to build web applications
+    in a team with half a dozen others.
+
+2.  Ning is helping to convert a 20K line legacy front end from JavaScript to TypeScript.
+    That experience sparked an interest in strongly-typed languages,
+    which led them to experiment with Elm on some personal projects
+    and to go through the Roc tutorial.
+
+3.  Ning would like to learn more about functional programming,
+    and about the differences between working in interpreted and compiled languages.
+    They are also interested in getting involved with an active open source community
+    where they might still be able to make a noticeable contribution.
+
+4.  Ning has never done a course on compilers or programming language semantics,
+    so they are worried that they don't know enough to start
+    and will look foolish if they ask questions.
+    In addition,
+    their workload means they cannot commit to a regular learning schedule,
+    so lessons must be usable in bursts of two or three hours at a time.
+
 ## FAQ
 
 -   **Why [Roc][roc] rather than a more established language like Haskell, Clojure, or Elixir?**
