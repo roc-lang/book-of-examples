@@ -24,6 +24,7 @@ that most programmers have never encountered.
 | Fabian Schmalzried | FabHof             | binary data packing       | binary     |
 | Isaac Van Doren    | isaacvando         | HTML templates            | template   |
 | Jasper Woudenberg  | jwoudenberg        | continuous integration    | ci         |
+| Agus Zubiaga       | agu-z              | HTML parser               | parser     |
 
 ## Learner Persona
 
