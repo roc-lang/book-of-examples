@@ -18,6 +18,7 @@ that most programmers have never encountered.
 | Ashley Davis       | ashleydavis        | thumbnail gallery         | gallery    |
 | Eli Dowling        | faldor20           | autocompletion            | completion |
 | Kyril Dziamura     | wontem             | file backup               | backup     |
+| Hristo Georgiev    | hristog            | file diffing              | diff       |
 | Norbert Hajagos    | HajagosNorbert     | file transfer             | ftp        |
 | Norbert Hajagos    | HajagosNorbert     | discrete event simulation | des        |
 | Stuart Hinson      | stuarth            | pattern matching          | match      |
