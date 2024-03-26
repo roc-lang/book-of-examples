@@ -1,0 +1,6 @@
+<dl class="glossary">
+{% for entry in site.data.glossary %}
+  <dt id="g:{{ entry.key }}">{{ entry[site.lang].term | markdownify | remove: "<p>" | remove: "</p>" }}</dt>
+  <dd>{{ entry[site.lang].def | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
+{% endfor %}
+</dl>

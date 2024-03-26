@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+:root {
+    --faint-gray: #F0F0F0;
+    --light-gray: #E8E8E8;
+    --dark-gray: #D8D8D8;
+
+    --lightborder: 1px;
+    --mediumborder: 2px;
+    --heavyborder: 5px;
+
+    --page-width: 60rem;
+
+    --code-size: 90%;
+
+    --no-spacing: 0px;
+    --small-spacing: 0.25rem;
+    --medium-spacing: 0.5rem;
+    --large-spacing: 1rem;
+}
+
+body {
+    max-width: var(--page-width);
+}
+
+code {
+    font-family: "Source Code Pro", monospace;
+    font-size: var(--code-size);
+    background-color: var(--faint-gray);
+}
+
+dl.glossary dt {
+    font-weight: bold;
+}
+
+footer {
+    border-top: solid var(--light-gray) var(--mediumborder);
+    padding-top: var(--small-spacing);
+    text-align: center;
+}
+
+html {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+ol.appendices {
+    list-style-type: upper-latin;
+}
+
+ol.chapters {
+    list-style-type: decimal;
+}
+
+p.author {
+    font-style: italic;
+}

@@ -1,0 +1,27 @@
+{%- if page.path == "index.md" -%}
+  {%- assign slug = "@root" -%}
+{%- else -%}
+  {%- assign temp = page.path | split: "/" -%}
+  {%- if temp.size == 1 -%}
+    {%- assign slug = temp[0] | split: "." | first | replace: "_", "" %}
+  {%- else -%}
+    {%- assign slug = temp[0] %}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if slug == "@root" -%}
+  {%- assign title = site.title -%}
+{%- else -%}
+  {%- assign temp = site.data.topic | find: "slug", slug -%}
+  {%- assign title = temp.title -%}
+{%- endif -%}
+
+{%- if site.data.order.chapters contains slug -%}
+  {%- assign temp = site.data.topic | find: "slug", slug -%}
+  {%- capture authors -%}{% include people.html githubs=temp.github %}{%- endcapture -%}
+{%- else -%}
+  {%- assign authors = nil -%}
+{%- endif -%}
+
+<h1>{{ title }}</h1>
+{% if authors -%}<p class="author">Written by {{ authors }}</p>{%- endif %}

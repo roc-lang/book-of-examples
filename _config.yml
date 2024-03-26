@@ -1,0 +1,30 @@
+title: "Software Design by Example in Roc"
+repository: roc-lang/book-of-examples
+editors:
+- "rtfeldman"
+- "Anton-4"
+- "gvwilson"
+lang: en
+
+markdown: kramdown
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+exclude:
+  - CODE_OF_CONDUCT.md
+  - GOVERNANCE.md
+  - LICENSE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - '.#*'
+  - '*~'
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap

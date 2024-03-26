@@ -46,29 +46,33 @@ while the third lists decisions made to date.
 ## Voting Members
 
 1.  The following people are currently voting members of this project:
+    1.  Shritesh **Bhattarai**
     1.  Luke **Boswell**
+    1.  Sophie **Collard**
+    1.  Ashley **Davis**
+    1.  Eli **Dowling**
+    1.  Kyril **Dziamura**
     1.  Richard **Feldman** (co-editor)
+    1.  Hristo **Georgiev**
     1.  Norbert **Hajagos**
     1.  Stuart **Hinson**
+    1.  Monica **McGuigan**
+    1.  Fabian **Schmalzried**
+    1.  Isaac **Van Doren**
     1.  Anton **Van Moere** (co-editor)
     1.  Greg **Wilson** (co-editor)
     1.  Jasper **Woudenberg**
+    1.  Agus **Zubiaga**
 
-2.  To become a voting member, a person must:
-    1.  select a topic in the issue list in this project's GitHub repository;
-    2.  have their selection approved by the co-editors; *and*
-    3.  submit a pull request creating a sub-directory for their topic with an `index.md` file.
-
-3.  Once ten (10) people have qualified as members under rule #2,
-    further additions will be made as follows:
+2.  To become a voting member:
     1.  An existing voting member must file a "governance" issue in the repository
         to propose the addition.
     2.  If there are no objections after 72 hours,
 	the addition will go through the procedure described in "Making Decisions" above.
 
-4.  Voting members may resign from the project at any time.
+3.  Voting members may resign from the project at any time.
 
-5.  Voting members may lose their vote if a proposal to that effect is passed
+4.  Voting members may lose their vote if a proposal to that effect is passed
     according to the procedure described in "Making Decisions" above.
     1.  A proposal to remove someone's vote may not contain any other business.
     2.  Each person must be the subject of a separate proposal.

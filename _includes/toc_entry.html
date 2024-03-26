@@ -1,0 +1,2 @@
+{%- assign temp = site.data.topic | where: "slug", include.slug | first -%}
+<li><a href="./{{ temp.slug }}/">{{ temp.title }}</a></li>

@@ -1,1 +1,4 @@
-# Glossary
+---
+---
+
+{% include glossary.html %}

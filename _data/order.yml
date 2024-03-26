@@ -1,0 +1,24 @@
+chapters:
+- intro
+- backup
+- diff
+- json
+- binary
+- ci
+- editor
+- parser
+- template
+- svg
+- match
+- completion
+- proptest
+- des
+- ftp
+- gallery
+- finale
+appendices:
+- license
+- references
+- glossary
+- conduct
+- governance

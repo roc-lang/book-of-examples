@@ -22,6 +22,7 @@ that most programmers have never encountered.
 | Norbert Hajagos    | HajagosNorbert     | file transfer             | ftp        |
 | Norbert Hajagos    | HajagosNorbert     | discrete event simulation | des        |
 | Stuart Hinson      | stuarth            | pattern matching          | match      |
+| Monica McGuigan    | monmcguigan        | JSON codec                | json       |
 | Fabian Schmalzried | FabHof             | binary data packing       | binary     |
 | Isaac Van Doren    | isaacvando         | HTML templates            | template   |
 | Jasper Woudenberg  | jwoudenberg        | continuous integration    | ci         |
@@ -103,9 +104,35 @@ that most programmers have never encountered.
     please include an `index.md` Markdown file
     with point-form notes about the design of the code.
 
+## Structure
+
+We are currently building this site using [Jekyll][jekyll]
+(the default static site generator for GitHub Pages);
+we will convert to something Roc-based soon.
+
+-   Project
+    -   `./CODE_OF_CONDUCT.md`: code of conduct
+    -   `./GOVERNANCE.md`: how this project is run`
+    -   `./LICENSE.md`: license
+    -   `./README.md`: this file
+-   `./index.md`: home page
+-   `./*_.md` (trailing underscore): create website pages for project files
+-   `*/index.md`: chapters and appendices
+-   `./*.css` and `./favicon.svg`: for generated website
+-   Jekyll
+    -   `./_config.yml`: configuration
+    -   `./_data/`: data files (see below)
+    -   `./_includes/`: inclusions
+    -   `./_layouts/default.html`: our page template
+-   Data files
+    -   `_data/contrib.yml`: contributors (use GitHub ID as primary key)
+    -   `_data/order.yml`: chapters and appendices in order (use slug as primary key)
+    -   `_data/topic.yml`: chapter and appendix information (use slug as primary key)
+
 [assigned]: https://github.com/roc-lang/book-of-examples/labels/assigned
 [cc-by-nc-nd]: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 [help-wanted]: https://github.com/roc-lang/book-of-examples/labels/help-wanted
+[jekyll]: https://jekyllrb.com/
 [mit-license]: https://opensource.org/license/MIT
 [repo]: https://github.com/roc-lang/book-of-examples
 [roc]: https://www.roc-lang.org/

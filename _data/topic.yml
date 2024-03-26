@@ -1,0 +1,100 @@
+- slug: "backup"
+  title: "File Backup"
+  github:
+  - "wontem"
+
+- slug: "binary"
+  title: "Binary Data Packing"
+  github:
+  - "FabHof"
+
+- slug: "ci"
+  title: "Continuous Integration"
+  github:
+  - "jwoudenberg"
+
+- slug: "completion"
+  title: "Autocompletion"
+  github:
+  - "faldor20"
+
+- slug: "conduct"
+  title: "Code of Conduct"
+
+- slug: "des"
+  title: "Discrete Event Simulation"
+  github:
+  - "HajagosNorbert"
+
+- slug: "diff"
+  title: "File Diffing"
+  github:
+  - "hristog"
+
+- slug: "editor"
+  title: "A Text Editor"
+  github:
+  - "lukewilliamboswell"
+
+- slug: "finale"
+  title: "Conclusion"
+  github:
+  - "gvwilson"
+
+- slug: "ftp"
+  title: "File Transfer"
+  github:
+  - "HajagosNorbert"
+
+- slug: "gallery"
+  title: "A Thumbnail Gallery"
+  github:
+  - "ashleydavis"
+
+- slug: "glossary"
+  title: "Glossary"
+
+- slug: "governance"
+  title: "Governance"
+
+- slug: "intro"
+  title: "Introduction"
+  github:
+  - "rtfeldman"
+  - "Anton-4"
+
+- slug: "json"
+  title: "JSON Encoding and Decoding"
+  github:
+  - "monmcguigan"
+
+- slug: "license"
+  title: "License"
+
+- slug: "match"
+  title: "Pattern Matching"
+  github:
+  - "stuarth"
+
+- slug: "parser"
+  title: "An HTML Parser"
+  github:
+  - "agu-z"
+
+- slug: "proptest"
+  title: "Property-Based Testing"
+  github:
+  - "sophiecollard"
+
+- slug: "references"
+  title: "References"
+
+- slug: "svg"
+  title: "SVG Rendering"
+  github:
+  - "shritesh"
+
+- slug: "template"
+  title: "HTML Templates"
+  github:
+  - "isaacvando"

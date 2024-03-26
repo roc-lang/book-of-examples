@@ -1,4 +1,5 @@
-# A Text Editor
+---
+---
 
 [Example code](https://github.com/lukewilliamboswell/roc-ansi/blob/main/examples/text-editor.roc)
 
