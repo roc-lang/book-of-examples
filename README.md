@@ -18,12 +18,15 @@ that most programmers have never encountered.
 | Ashley Davis       | ashleydavis        | thumbnail gallery         | gallery    |
 | Eli Dowling        | faldor20           | autocompletion            | completion |
 | Kyril Dziamura     | wontem             | file backup               | backup     |
+| Hristo Georgiev    | hristog            | file diffing              | diff       |
 | Norbert Hajagos    | HajagosNorbert     | file transfer             | ftp        |
 | Norbert Hajagos    | HajagosNorbert     | discrete event simulation | des        |
 | Stuart Hinson      | stuarth            | pattern matching          | match      |
+| Monica McGuigan    | monmcguigan        | JSON codec                | json       |
 | Fabian Schmalzried | FabHof             | binary data packing       | binary     |
 | Isaac Van Doren    | isaacvando         | HTML templates            | template   |
 | Jasper Woudenberg  | jwoudenberg        | continuous integration    | ci         |
+| Agus Zubiaga       | agu-z              | HTML parser               | parser     |
 
 ## Learner Persona
 
