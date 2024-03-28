@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Roc Template Example Blog</title>
+</head>
+<body>
+    <div>
+        <h1>Posts</h1>
+        <ul>
+        {|list post : model.posts |}
+            <li>
+                <a href="/posts/{{ post.slug }}">{{ post.title }}</a>
+            </li>
+        {|endlist|}
+        </ul>
+    </div>
+</body>
+</html>
