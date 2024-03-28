@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{{ model.post.title }} - Roc Template Example</title>
+</head>
+<body>
+    <div>
+        <h1>{{ model.post.title }}</h1>
+        <p>{{ model.post.text }}</p>
+        <a href="/">Home</a>
+    </div>
+</body>
+</html>
