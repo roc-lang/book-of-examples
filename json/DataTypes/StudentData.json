@@ -1,0 +1,28 @@
+{
+    "students": [
+        {
+            "name": "Alice",
+            "modules": [
+                {
+                    "name": "Physics 101",
+                    "credits": 10,
+                    "enrolled": true
+                }
+            ],
+            "grade": 75,
+            "#type": "CurrentStudent"
+        },
+        {
+            "name": "Bob",
+            "modules": [
+                {
+                    "name": "Maths 101",
+                    "credits": 20,
+                    "enrolled": false
+                }
+            ],
+            "grade": 70,
+            "#type": "GraduatedStudent"
+        }
+    ]
+}
